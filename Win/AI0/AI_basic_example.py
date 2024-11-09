@@ -57,7 +57,7 @@ class NeuralNetwork:
         # 예측 값과 실제 값의 합을 비교하여 모델의 성능을 퍼센트로 표현
         eval = sum(pred) / sum(datasets[1]) * 100
 
-        print(f"Model's Accuracy : {eval}%")
+        print(f"Model's Accuracy : {eval:.3f}%")
 
     def printParam(self):
         # 현재 가중치와 편향 출력
